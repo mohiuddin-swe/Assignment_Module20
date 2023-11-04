@@ -30,8 +30,8 @@ export default function Home() {
       let res = await axios.post("api/user/login", { email, password });
       if (res.data.status === "success") {
         SuccessToast("Login Success!");
-        // router.replace("/dashboard");
-        window.location.assign("/dashboard");
+         router.replace("/dashboard");
+        //window.location.assign("/dashboard");
       } else {
         ErrorToast("Email or Password Wrong!");
       }

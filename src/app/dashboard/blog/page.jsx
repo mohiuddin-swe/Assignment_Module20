@@ -34,6 +34,7 @@ export default function Page() {
         imgCDNRef.value = "";
         setEditorData("");
         read_all_blog__Request__API().then((res) => {
+          
           setBlog(res.data);
         });
       }
