@@ -1,1 +1,1 @@
-website link: https://nextjs-module-20-assignment-1-k9cxvvlji.vercel.app/
+website link: https://assignment-module20.vercel.app/
